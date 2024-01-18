@@ -7,11 +7,11 @@ const Sidebar: React.FC = () => {
       <img src={whitelogo} alt="Logo" className="logo-class" />
 
       <ul className="mt-12">
-        <li className="my-2 px-4 py-2">Home</li>
-        <li className="my-2 px-4 py-2">Photography</li>
-        <li className="my-2 px-4 py-2">Videography</li>
-        <li className="my-2 px-4 py-2">Social Media Management</li>
-        <li className="my-2 px-4 py-2">Contact</li>
+        <li className="my-2 px-4 py-2 text-left mx-auto" style={{ width: '90%' }}>Home</li>
+        <li className="my-2 px-4 py-2 text-left mx-auto" style={{ width: '90%' }}>Photography</li>
+        <li className="my-2 px-4 py-2 text-left mx-auto" style={{ width: '90%' }}>Videography</li>
+        <li className="my-2 px-4 py-2 text-left mx-auto" style={{ width: '90%' }}>Social Media Management</li>
+        <li className="my-2 px-4 py-2 text-left mx-auto" style={{ width: '90%' }}>Contact</li>
       </ul>
     </div>
   );
