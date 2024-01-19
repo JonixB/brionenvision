@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import VideoBG from './components/VideoBG';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Sidebar />
       <div className="flex-grow overflow-auto">
         <VideoBG />
+        <Services />
       </div>
     </div>
   );
