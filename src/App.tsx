@@ -4,9 +4,11 @@ import VideoBG from './components/VideoBG';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex h-screen">
       <Sidebar />
-      <VideoBG />
+      <div className="flex-grow overflow-auto">
+        <VideoBG />
+      </div>
     </div>
   );
 }
