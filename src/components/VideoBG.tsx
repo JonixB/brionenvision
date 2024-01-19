@@ -14,9 +14,10 @@ const VideoBG: React.FC = () => {
         Your browser does not support the video tag.
       </video>
 
-      <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        Projects
+      <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border border-white text-white font-semibold px-8 py-4 hover:bg-white hover:text-black">
+        VIEW PROJECTS
       </button>
+
     </div >
   );
 }
