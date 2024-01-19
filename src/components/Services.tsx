@@ -5,7 +5,12 @@ const ServiceCard: React.FC<{ title: string; image: string; buttonText: string }
   return (
     <div className="flex flex-col items-center p-4">
       <h2 className="mt-4 mb-2 font-bold text-lg">{title}</h2>
-      <img src={image} alt={title} className="h-48 w-full object-cover" />
+      <img
+        src={image}
+        alt={title}
+        style={{ width: '378px', height: '504px' }}
+        className="max-w-full max-h-full object-contain mb-4"
+      />
       <button className="px-6 py-2 border border-transparent text-base font-medium rounded-md text-black bg-white hover:bg-gray-50">
         {buttonText}
       </button>
