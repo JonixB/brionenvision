@@ -17,12 +17,18 @@ const ServiceCard: React.FC<{ title: string; image: string; linkText: string; hr
         href={href}
         className="group px-6 py-2 inline-flex items-center font-medium text-black bg-white"
       >
-        <span className="underline">{linkText}</span>
+        <span
+          className="underline"
+          style={{ textDecorationThickness: '2px', textUnderlineOffset: '10px' }}
+        >
+          {linkText}
+        </span>
         <span className="transition-transform transform group-hover:translate-x-2 ml-2">&gt;</span>
       </a>
     </div>
   );
 };
+
 
 
 const Services: React.FC = () => {
