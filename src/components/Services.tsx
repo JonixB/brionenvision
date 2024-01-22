@@ -23,7 +23,7 @@ const ServiceCard: React.FC<{ title: string; image: string; linkText: string; hr
         >
           {linkText}
         </span>
-        <span className="transition-transform transform group-hover:translate-x-2 ml-2">&gt;</span>
+        <span className="inline-block transition-transform duration-500 transform group-hover:translate-x-2 ml-2">&gt;</span>
       </a>
     </div>
   );
