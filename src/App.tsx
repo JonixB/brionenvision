@@ -2,6 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import VideoBG from './components/VideoBG';
 import Services from './components/Services';
+import Insta from './components/Insta';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="flex-grow overflow-auto">
         <VideoBG />
         <Services />
+        <Insta />
       </div>
     </div>
   );
