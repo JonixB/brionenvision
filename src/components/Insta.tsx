@@ -6,11 +6,16 @@ const Insta: React.FC = () => {
   const reelUrl = "https://www.instagram.com/p/CptndcvjjBe/";
 
   return (
-    <div className="bg-black h-[573px] flex justify-center items-center gap-x-12">
-      <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
-      <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
-      <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
-      <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
+    <div className="bg-black h-[573px] flex flex-col justify-center items-center gap-y-6">
+      <span className="text-white text-4xl font-normal tracking-wider" style={{ fontFamily: 'Adamina, serif', lineHeight: '56px' }}>
+        INSTAGRAM
+      </span>
+      <div className="flex gap-x-12">
+        <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
+        <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
+        <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
+        <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
+      </div>
     </div>
   );
 }
