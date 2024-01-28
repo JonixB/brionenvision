@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import VideoBG from './components/VideoBG';
 import Services from './components/Services';
 import Insta from './components/Insta';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <VideoBG />
         <Services />
         <Insta />
+        <Contact />
       </div>
     </div>
   );
