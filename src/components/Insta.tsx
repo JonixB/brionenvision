@@ -7,7 +7,7 @@ const Insta: React.FC = () => {
 
   return (
     <div className="bg-black h-[573px] flex flex-col justify-center items-center gap-y-6">
-      <span className="text-white text-4xl font-normal tracking-wider" style={{ fontFamily: 'Adamina, serif', lineHeight: '56px' }}>
+      <span className="text-white text-4xl font-normal tracking-wider mt-[-100px]" style={{ fontFamily: 'Adamina, serif', lineHeight: '56px' }}>
         INSTAGRAM
       </span>
       <div className="flex gap-x-12">
