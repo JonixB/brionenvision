@@ -10,7 +10,7 @@ const ServiceCard: React.FC<{ title: string; image: string; linkText: string; hr
       <img
         src={image}
         alt={title}
-        style={{ width: '378px', height: '504px' }}
+        style={{ width: '325px', height: '480px' }}
         className="object-cover mb-4"
       />
       <a
@@ -34,10 +34,11 @@ const ServiceCard: React.FC<{ title: string; image: string; linkText: string; hr
 const Services: React.FC = () => {
   return (
     <div className="bg-white h-[795px] flex flex-col items-center justify-center p-8">
-      <div className="flex justify-center gap-x-12">
-        <ServiceCard title="PHOTOGRAPHY" image={pic1} linkText="VIEW PROJECTS" href='sample' />
-        <ServiceCard title="VIDEOGRAPHY" image={pic2} linkText="VIEW PROJECTS" href='sample' />
-        <ServiceCard title="SOCIAL MEDIA MANAGEMENT" image={pic3} linkText="FIND OUT MORE" href='sample' />
+      <div className="flex justify-center gap-x-4">
+        <ServiceCard title="Real Estate" image={pic1} linkText="VIEW PROJECTS" href='sample' />
+        <ServiceCard title="Weddings/Engagements" image={pic2} linkText="VIEW PROJECTS" href='sample' />
+        <ServiceCard title="Sports + Fitness" image={pic3} linkText="VIEW PROJECTS" href='sample' />
+        <ServiceCard title="Corporate" image={pic3} linkText="VIEW PROJECTS" href='sample' />
       </div>
     </div>
   );
