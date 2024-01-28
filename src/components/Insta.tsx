@@ -7,7 +7,7 @@ const Insta: React.FC = () => {
 
   return (
     <div className="bg-black h-[573px] flex flex-col justify-center items-center gap-y-6">
-      <span className="text-white text-4xl font-normal tracking-wider mt-[-100px]" style={{ fontFamily: 'Adamina, serif', lineHeight: '56px' }}>
+      <span className="text-white text-4xl font-normal tracking-wider mt-[-40px]" style={{ fontFamily: 'Adamina, serif', lineHeight: '56px' }}>
         INSTAGRAM
       </span>
       <div className="flex gap-x-12">
@@ -16,7 +16,7 @@ const Insta: React.FC = () => {
         <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
         <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
       </div>
-      <a href="https://www.instagram.com/brionenvision/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-500 cursor-pointer">
+      <a href="https://www.instagram.com/brionenvision/" target="_blank" rel="noopener noreferrer" className="mt-10 text-gray-400 hover:text-white transition-colors duration-500 cursor-pointer">
         Follow us on Instagram &gt;
       </a>
     </div>
