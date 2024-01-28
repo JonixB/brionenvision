@@ -16,9 +16,9 @@ const Insta: React.FC = () => {
         <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
         <InstaLink imageUrl={imageUrl} reelUrl={reelUrl} />
       </div>
-      <span className="text-gray-400 hover:text-white transition-colors duration-500 cursor-pointer">
+      <a href="https://www.instagram.com/brionenvision/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-500 cursor-pointer">
         Follow us on Instagram &gt;
-      </span>
+      </a>
     </div>
   );
 }
