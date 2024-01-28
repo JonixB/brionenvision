@@ -11,13 +11,16 @@ const Sidebar: React.FC = () => {
           <a href="#home" className="block px-4 py-2 text-left hover:opacity-50">Home</a>
         </li>
         <li className="my-2">
-          <a href="#photography" className="block px-4 py-2 text-left hover:opacity-50">Photography</a>
+          <a href="#real-estate" className="block px-4 py-2 text-left hover:opacity-50">Real Estate</a>
         </li>
         <li className="my-2">
-          <a href="#videography" className="block px-4 py-2 text-left hover:opacity-50">Videography</a>
+          <a href="#weddings" className="block px-4 py-2 text-left hover:opacity-50">Weddings/Engagements</a>
         </li>
         <li className="my-2">
-          <a href="#social-media-management" className="block px-4 py-2 text-left hover:opacity-50">Social Media Management</a>
+          <a href="#sports" className="block px-4 py-2 text-left hover:opacity-50">Sports + Fitness</a>
+        </li>
+        <li className="my-2">
+          <a href="#corporate" className="block px-4 py-2 text-left hover:opacity-50">Corporate</a>
         </li>
         <li className="my-2">
           <a href="#contact" className="block px-4 py-2 text-left hover:opacity-50">Contact</a>
