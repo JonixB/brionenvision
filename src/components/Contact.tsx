@@ -5,8 +5,8 @@ const Contact: React.FC = () => {
     <div className="bg-white flex justify-center items-center h-[837px]">
       <form className="w-full max-w-xl">
         <div className="flex flex-wrap -mx-3 mb-6">
-          <h2 className="w-full px-3 mb-6 text-3xl font-bold text-center">CONTACT US</h2>
-          <h2 className="w-full px-3 mb-6 text-3xl font-bold text-center">TELL US ABOUT YOUR CONTENT NEEDS!</h2>
+          <h2 className="w-full px-3 mb-6 text-3xl font-bold text-center" style={{ fontFamily: 'Poppins, serif', fontSize: '16px' }}>CONTACT US</h2>
+          <h2 className="w-full px-3 mb-6 text-3xl font-bold text-center" style={{ fontFamily: 'Adamina, serif', fontSize: '21px' }}>TELL US ABOUT YOUR CONTENT NEEDS!</h2>
           <div className="w-full px-3 mb-6">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
               Name
