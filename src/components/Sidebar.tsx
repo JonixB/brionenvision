@@ -1,5 +1,6 @@
 import React from 'react';
 import whitelogo from '../assets/black-logo.png';
+import { Link } from 'react-router-dom';
 
 const Sidebar: React.FC = () => {
   return (
@@ -8,10 +9,10 @@ const Sidebar: React.FC = () => {
 
       <ul className="mt-12">
         <li className="my-2">
-          <a href="#home" className="block px-4 py-2 text-left hover:opacity-50">Home</a>
+          <Link to="/" className="block px-4 py-2 text-left hover:opacity-50">Home</Link>
         </li>
         <li className="my-2">
-          <a href="#real-estate" className="block px-4 py-2 text-left hover:opacity-50">Real Estate</a>
+          <Link to="/real-estate" className="block px-4 py-2 text-left hover:opacity-50">Real Estate</Link>
         </li>
         <li className="my-2">
           <a href="#weddings" className="block px-4 py-2 text-left hover:opacity-50">Weddings/Engagements</a>
