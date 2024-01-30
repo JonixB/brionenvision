@@ -8,7 +8,7 @@ const ContactUs: React.FC = () => {
   return (
     <div className="bg-black py-16 px-4">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-white text-4xl font-bold mb-4">CONTACT US</h2>
+        <h2 className="text-white text-4xl font-bold mb-4" style={{ fontFamily: 'Adamina, serif', fontSize: '21px', letterSpacing: '0.2em' }}>CONTACT US</h2>
         <p className="text-white text-xl mb-8">BOOK YOUR PHOTOSHOOT NOW!<br />Tell us about your shoot in as many details as possible!</p>
         <form onSubmit={handleSubmit}>
           <button
